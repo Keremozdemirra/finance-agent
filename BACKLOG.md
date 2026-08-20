@@ -22,11 +22,10 @@ Rules of thumb applied to every item:
 
 ## Done
 
-Nothing yet.
+- [x] **001 — valuation-review** · shipped 2026-08-20.
 
 ## Queue
 
-- [ ] **001 — valuation-review** · Take apart someone else's valuation and report what is really driving it — usually the terminal assumption and the discount rate, rarely the forecast everybody argued about.
 - [ ] **002 — investment-memo** · Write the case so it can be judged: the thesis, what has to be true, what would falsify it, and the price at which the answer changes.
 - [ ] **003 — assumption-register** · Extract every assumption from a model into a register with its source, its vintage, its owner and the sensitivity of the answer to it. The assumptions nobody can source are the finding.
 - [ ] **004 — diligence-questions** · Generate the questions worth asking before the model matters, ordered by how much each answer would move the decision.
