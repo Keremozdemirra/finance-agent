@@ -12,8 +12,9 @@ valuation for what is actually driving the answer, writing an investment case
 that states what would make it wrong, and running the diligence questions that
 are worth asking before the number matters.
 
-The calculation engines live in `analyst-toolkit`. This repository is the
-judgement layer on top of them.
+The calculation engines live in `analyst-toolkit`, which is a separate
+repository and not part of this one. This repository is the judgement layer on
+top of them.
 
 ## What this is not
 
@@ -39,8 +40,8 @@ bash ~/Desktop/agent/_setup/sync-skills.sh
 ```
 
 That clones every agent repository and links its `skills/` into `~/.claude/skills`,
-so they are available in every session and every folder. Re-run it whenever the
-daily loop ships something new — it pulls rather than re-clones.
+so they are available in every session and every folder. Re-run it whenever one of
+these repositories ships something new — it pulls rather than re-clones.
 
 Then simply ask. Each skill's `description` frontmatter is written to match how
 the request actually gets phrased, in English or Turkish, so you do not name the
@@ -68,6 +69,8 @@ examples/
   <name>/             worked example on real input, with the output committed
 ```
 
+`agents/` is empty so far.
+
 ## Roadmap
 
 See [BACKLOG.md](BACKLOG.md). The first unchecked item is the one being built.
@@ -79,7 +82,7 @@ See [BACKLOG.md](BACKLOG.md). The first unchecked item is the one being built.
 | [valuation-review](skills/valuation-review) | Take apart someone else's valuation and report what is really driving it. |
 
 Everything still under Queue in [BACKLOG.md](BACKLOG.md) does not exist
-yet. The daily loop builds one item a day.
+yet.
 ## Licence
 
 MIT. See [LICENSE](LICENSE).
